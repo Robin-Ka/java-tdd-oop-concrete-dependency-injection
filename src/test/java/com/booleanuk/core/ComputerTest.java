@@ -31,7 +31,7 @@ class ComputerTest {
     public void shouldPlayGames() {
         PowerSupply myPsu = new PowerSupply();
         Computer myPc = new Computer(myPsu);
-        Game game1 = new Game("Duck game");
+        Game game1 = new Game("Duck Game");
         Game game2 = new Game("Dragon's Dogma: Dark Arisen");
         Game game3 = new Game("Morrowind");
 
